@@ -28,8 +28,21 @@
   Google Drive Folder: https://drive.google.com/drive/folders/10NNv3Zh96TmddmrtEzz00FpnkOMekB4a
   
 * Please provide a link to any data dictionaries for the datasets in this project. If one does not exist, please create a data dictionary for the datasets used in this project.
-  SAM ID: 
-  More TBA 
+  Property Assessment FY2025: [link](https://data.boston.gov/dataset/property-assessment/resource/6b7e460e-33f6-4e61-80bc-1bef2e73ac54)
+  Live Street Address Management (SAM) Addresses: [link](https://data.boston.gov/dataset/live-street-address-management-sam-addresses/resource/6d6cfc99-6f26-4974-bbb3-17b5dbad49a9)
+  City Council District Shape File: [link](https://data.boston.gov/dataset/city-council-districts-2023-2032)
+  Residential List: not public
+  Housing List: in PDF
+
+  The following datasets do not provide a data dictionary. We will describe them by providing a dictionary on relevant columns that are used as a part of the analysis.
+  **Live Street Address Management (SAM) Addresses**
+  | Column Name | Data Type | Description |
+  |---|---|---|
+  | `FULL_ADDRESS` | String | The complete address, including street number, street name, and unit number. |
+  | `FULL_STREET_NAME` | String | The full name of the street, including any prefixes or suffixes. |
+  | `STREET_BODY` | String | The main portion of the street name, excluding prefixes or suffixes. |
+  | `POINT_X` | Float | The X coordinate (longitude) of the address location in the spatial reference system. |
+  | `POINT_Y` | Float | The Y coordinate (latitude) of the address location in the spatial reference system. |
   
 * What keywords or tags would you attach to the data set? 
   Gentrification, Elderly resident, Boston housing
