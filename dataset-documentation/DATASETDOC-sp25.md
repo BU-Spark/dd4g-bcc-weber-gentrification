@@ -45,6 +45,7 @@
   Housing List: [link](https://drive.google.com/file/d/10QWfF1z6iJMB4kXjMyPUooQjnYVyBq18/view)
 
   The following datasets do not provide a data dictionary. We will describe them by providing a dictionary on relevant columns used as a part of the analysis.
+
   **Live Street Address Management (SAM) Addresses**
   | Column Name | Data Type | Description |
   |---|---|---|
@@ -83,7 +84,7 @@
   | `REG_DATE` | Date | Voter registration date. |
   | `RES_ID` | String | Unique residence identifier. |
 
-  **Building List**
+  **Housing List**
   | Column Name | Data Type | Description |
   |---|---|---|
   | `NAME_OF_DEVELOPMENT` | String | The name of the housing development. |
