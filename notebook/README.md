@@ -10,7 +10,7 @@ This folder contains notebooks utilized for comprehensive data analysis. Each no
 
 - **district-6-boston.json**: Identifies and filters coordinates within distrcit 6 boundary. 
 
-- **Elderly_Data_Visualizations.ipynb**: Analyzes residential list data based on different distrcit 7 regions, including interactive maps.
+- **Elderly_Data_Visualizations.ipynb**: Analyzes residential list data based on different distrcit 6 regions, including interactive maps.
 
 - **Elderly_Housing_List_Visualizations.ipynb**: Analyzes housing list data to gain insights on elderly housing availability and options. 
 
