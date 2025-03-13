@@ -117,10 +117,10 @@
 
 * What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? What is the format of the instances (e.g., image data, text data, tabular data, audio data, video data, time series, graph data, geospatial data, multimodal (please specify), etc.)? Please provide a description.
 
-Most of our datasets are tabular data or geospatial data, which is divided into two categories:
-
-Housing: Property Assessment,  Approved Building Permit, Residential List, and Housing List, which was transformed from a PDF into Excel then CSV. 
-Geospatial: Live Street Address Management (SAM) Addresses and City Council District Shape File. 
+  Most of our datasets are tabular data or geospatial data, which is divided into two categories:
+  
+  Housing: Property Assessment,  Approved Building Permit, Residential List, and Housing List, which was transformed from a PDF into Excel then CSV. 
+  Geospatial: Live Street Address Management (SAM) Addresses and City Council District Shape File. 
   
 * How many instances are there in total (of each type, if appropriate)?
 
