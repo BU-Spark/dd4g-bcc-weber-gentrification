@@ -143,7 +143,7 @@ Geospatial: Live Street Address Management (SAM) Addresses and City Council Dist
   
 * Are there any errors, sources of noise, or redundancies in the dataset? If so, please provide a description.
 
-  TBCTBC
+  Not applicable to our project as the datasets are mainly accurate. 
   
 * Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)? If it links to or relies on external resources,   
   * Are there guarantees that they will exist, and remain constant, over time;  
@@ -167,14 +167,45 @@ Geospatial: Live Street Address Management (SAM) Addresses and City Council Dist
 * Dataset Snapshot, if there are multiple datasets please include multiple tables for each dataset. 
 
 
-| Size of dataset |  |
+Property Assessment FY2025
+| Size of dataset | 80.5MB |
 | :---- | :---- |
-| Number of instances |  |
-| Number of fields  |  |
-| Labeled classes |  |
-| Number of labels  |  |
+| Number of instances | 183,445  |
+| Number of fields  | 67 |
+| Labeled classes | 0 |
+| Number of labels  | 0 |
 
+SAM Address Database
+| Size of dataset | 114.4MB |
+| :---- | :---- |
+| Number of instances | 399,842 |
+| Number of fields  | 32 |
+| Labeled classes | 0 |
+| Number of labels  | 0 |
 
+City Council District Shape File
+| Size of dataset | 131KB |
+| :---- | :---- |
+| Number of instances | 9 |
+| Number of fields  | 15 |
+| Labeled classes | 0 |
+| Number of labels  | 0 |
+
+Residential Listing Data
+| Size of dataset | 5.3MB |
+| :---- | :---- |
+| Number of instances | 51,959 |
+| Number of fields  | 24 |
+| Labeled classes | 0 |
+| Number of labels  | 0 |
+
+Housing Data
+| Size of dataset | 8KB |
+| :---- | :---- |
+| Number of instances | 22 |
+| Number of fields  | 18 |
+| Labeled classes | 0 |
+| Number of labels  | 0 |
   
 *Collection Process*
 
@@ -202,11 +233,11 @@ Geospatial: Live Street Address Management (SAM) Addresses and City Council Dist
   
 * Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? If so, please provide a link or other access point to the “raw” data, this could be a link to a folder in your GitHub Repo, Spark\! owned Google Drive Folder for this project, or a path on the SCC, etc.
 
- Yes. TBCTBC
+ Yes. The raw data can be found in the project description under `Data Sets + Data Dictionary` section, or in the Google Drive: [link](https://drive.google.com/drive/folders/1g9X-ejbomg7jXDzrUzcb6xHyTybwhV0N) with the naming of `*-raw-data`. 
   
 * Is the code that was used to preprocess/clean the data available? If so, please provide a link to it (e.g., EDA notebook/EDA script in the GitHub repository).
 
-  Yes. TBCTBC
+  Yes. The EDA notebook can be found in GitHub `dev` branch under the `notebook` folder: [link](https://github.com/BU-Spark/dd4g-bcc-weber-gentrification/tree/dev/notebook)
 
 *Uses* 
 
