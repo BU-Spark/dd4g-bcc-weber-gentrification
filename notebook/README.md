@@ -6,7 +6,7 @@ This folder contains notebooks utilized for comprehensive data analysis. Each no
 
 - **SAM_ID_Cleaning.ipynb**: Identifies and filters addresses within district 6 boundary using SAM ID. 
 
-- **Finding_coordinates_from_address_DD4G.ipynb**: Generates the correct coordinates for the addresses provided in the Resident List data to make data analysis easier. 
+- **Finding_coordinates_from_address_DD4G.ipynb**: Generates the correct coordinates for the addresses provided in the residential list data to make data analysis easier. 
 
 - **district-6-boston.json**: Identifies and filters coordinates within distrcit 6 boundary. 
 
