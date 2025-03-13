@@ -10,7 +10,7 @@
 
 * What is the link to your project’s Google Drive folder? \*\**This should be a Spark\! Owned Google Drive folder \- please contact your PM if you do not have access\*\**
 
-  https://drive.google.com/drive/folders/10NNv3Zh96TmddmrtEzz00FpnkOMekB4a
+  Google drive folder: https://drive.google.com/drive/folders/10NNv3Zh96TmddmrtEzz00FpnkOMekB4a
 
 * In your own words, what is this project about? What is the goal of this project?
 
@@ -22,18 +22,18 @@
   
 * Who are the client contacts for the project?
 
-  jordan.frias@boston.gov and bonnie.delaune@boston.gov
+  jordan.frias@boston.gov and bonnie.delaune@boston.gov.
   
 * What class was this project part of?
 
-  Spring 2025 Data Days for Good
+  Spring 2025 Data Days for Good.
 
 ***Dataset Information***
 
 * What data sets did you use in your project? Please provide a link to the data sets, this could be a link to a folder in your GitHub Repo, Spark\! owned Google Drive Folder for this project, or a path on the SCC, etc.
 
   GitHub `dev` branch: [link](https://github.com/BU-Spark/dd4g-bcc-weber-gentrification/tree/dev/dataset)
-  Google Drive Folder: [link](https://drive.google.com/drive/folders/10NNv3Zh96TmddmrtEzz00FpnkOMekB4a)
+  Google drive folder: [link](https://drive.google.com/drive/folders/10NNv3Zh96TmddmrtEzz00FpnkOMekB4a)
   
 * Please provide a link to any data dictionaries for the datasets in this project. If one does not exist, please create a data dictionary for the datasets used in this project.
 
@@ -104,7 +104,7 @@
       
 * What keywords or tags would you attach to the data set? 
 
-  Elderly resident, Boston housing, housing availability
+  Elderly resident, Boston housing, housing availability, housing options
 
 *The following questions pertain to the datasets you used in your project.*   
 *Motivation* 
@@ -119,7 +119,7 @@
 
   Most of our datasets are tabular data or geospatial data, which is divided into two categories:
   
-  Housing: Property Assessment,  Approved Building Permit, Residential List, and Housing List, which was transformed from a PDF into Excel then CSV. 
+  Housing: Property Assessment,  Approved Building Permit, Residential List, and Housing List, which was transformed from a PDF into Excel then CSV file. 
   Geospatial: Live Street Address Management (SAM) Addresses and City Council District Shape File. 
   
 * How many instances are there in total (of each type, if appropriate)?
@@ -144,18 +144,18 @@
   
 * Are there any errors, sources of noise, or redundancies in the dataset? If so, please provide a description.
 
-  Not applicable to our project as the datasets are mainly accurate. 
+  Not applicable to our project as the datasets are mainly accurate. The challenge is defining the boundary of District 6 and it was resolved using addresses and SAM IDs. 
   
 * Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)? If it links to or relies on external resources,   
   * Are there guarantees that they will exist, and remain constant, over time;  
   * Are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created)?  
   * Are there any restrictions (e.g., licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points as appropriate.
 
-  The datasets are both self-contained and reliant on internal sources. The former should remain constant as a public record, and the latter should be available by requesting from the client team. 
+  The datasets are both self-contained and reliant on internal sources. The former should remain constant as a public record, and the latter should remain available by requesting from the client team. 
     
 * Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)? If so, please provide a description.
 
-  Most data are made public with no license required. Residential List may be confidential as it is shared from the client teeam. 
+  Most data are made public with no license required. Residential List may be confidential as it is shared from the client team. 
   
 * Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.
 
@@ -192,7 +192,7 @@ City Council District Shape File
 | Labeled classes | 0 |
 | Number of labels  | 0 |
 
-Residential Listing Data
+Residential List Data
 | Size of dataset | 5.3MB |
 | :---- | :---- |
 | Number of instances | 51,959 |
@@ -200,7 +200,7 @@ Residential Listing Data
 | Labeled classes | 0 |
 | Number of labels  | 0 |
 
-Housing Data
+Housing List Data
 | Size of dataset | 8KB |
 | :---- | :---- |
 | Number of instances | 22 |
@@ -226,7 +226,7 @@ Housing Data
 
 * Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.
 
-  We renamed or restructured the data columns for some datasets. We also imputed missing geographical field by joining the address with Boston SAM Addresses to get the coordinate, which is then used to plot against the City Council District shapefile to determine District 6.
+  We renamed or restructured the data columns for some datasets. We also imputed the missing geographical field by joining the address with Boston SAM Addresses to get the coordinates, which is then used to plot against the City Council District shapefile to determine District 6.
   
 * Were any transformations applied to the data (e.g., cleaning mismatched values, cleaning missing values, converting data types, data aggregation, dimensionality reduction, joining input sources, redaction or anonymization, etc.)? If so, please provide a description.
 
@@ -234,11 +234,11 @@ Housing Data
   
 * Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? If so, please provide a link or other access point to the “raw” data, this could be a link to a folder in your GitHub Repo, Spark\! owned Google Drive Folder for this project, or a path on the SCC, etc.
 
- Yes. The raw data can be found in the project description under `Data Sets + Data Dictionary` section, or in the Google Drive: [link](https://drive.google.com/drive/folders/1g9X-ejbomg7jXDzrUzcb6xHyTybwhV0N) with the naming of `*-raw-data`. 
+ Yes. The raw data can be found in the project description under `Data Sets + Data Dictionary` section, or in the Google drive folder: [link](https://drive.google.com/drive/folders/1g9X-ejbomg7jXDzrUzcb6xHyTybwhV0N) with the naming convention of `*-raw-data`. 
   
 * Is the code that was used to preprocess/clean the data available? If so, please provide a link to it (e.g., EDA notebook/EDA script in the GitHub repository).
 
-  Yes. The EDA notebook can be found in GitHub `dev` branch under the `notebook` folder: [link](https://github.com/BU-Spark/dd4g-bcc-weber-gentrification/tree/dev/notebook)
+  Yes. The EDA notebooks can be found in GitHub `dev` branch under the `notebook` folder: [link](https://github.com/BU-Spark/dd4g-bcc-weber-gentrification/tree/dev/notebook)
 
 *Uses* 
 
@@ -252,7 +252,7 @@ Housing Data
   
 * Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
 
-  Some properties are merged unsuccessfully from the table if coordinates cannot be found from Boston SAM Addresses as we cannot know for sure if they are in District 6.
+  Some properties are merged unsuccessfully from the table if coordinates cannot be found from Boston SAM Addresses, as we cannot know for sure if they are in District 6.
   
 * Are there tasks for which the dataset should not be used? If so, please provide a description.
 
@@ -262,14 +262,14 @@ Housing Data
 
 * Based on discussions with the client, what access type should this dataset be given (eg., Internal (Restricted), External Open Access, Other)?
 
-  Most datasets used are public, besides the Residential List data provided by the client team. All datasets could be public if the residents ' identities are protected properly. 
+  Most datasets used are public, besides the Residential List data provided by the client team. All datasets could be public if the residents' identities are protected properly. 
 
 *Maintenance* 
 
 * If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so? If so, please provide a description.
   All datasets are uploaded to GitHub in the `dataset` folder and the Google Cloud Folder owned by Spark!.
 
-  The datasets are available in the `dataset` folder under `dev` branch.
+  The datasets are available in the `dataset` folder under the `dev` branch.
 
 *Other*
 
