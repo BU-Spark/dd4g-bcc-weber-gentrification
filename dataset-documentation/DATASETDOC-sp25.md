@@ -123,7 +123,7 @@ Geospatial: Live Street Address Management (SAM) Addresses and City Council Dist
   
 * How many instances are there in total (of each type, if appropriate)?
 
-  We have over 1 million instances of tabular data points and thousands of geospatial data points. TBCTBCTBC
+  We have around hundreds of thousands of instances of tabular data points and geospatial data points.
   
 * Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).
 
