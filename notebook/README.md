@@ -4,8 +4,16 @@ This folder contains notebooks utilized for comprehensive data analysis. Each no
 
 ## Notebook Descriptions
 
-- **elderly-housing-list.ipynb**: Analyzes `elderly-housing-list-district-6.csv` to gain insights on elderly housing availability and options. 
+- **SAM_ID_Cleaning.ipynb**: Identifies and filters addresses within district 6 boundary using SAM ID. 
 
-- **resident-list-cleaning.ipynb**: Cleans `elderly-list-district-6.csv` to identify elderly residents. 
+- **Finding_coordinates_from_address_DD4G.ipynb**: Generates the correct coordinates for the addresses provided in the Resident List data to make data analysis easier. 
 
-- **resident-data-preliminrary-analysis-combined.ipynb**: Analyzes `resident-list-district-6-clean.csv` to explore elderly residents' concentration in neighborhoods and demographics information, such as political parties.
+- **District_6_Boston.json**: Identifies and filers coordinates within distrcit 6 boundary. 
+
+- **Elderly_Data_Visualizations.ipynb**: Analyzes residential list data based on different distrcit 7 regions, including interactive maps.
+
+- **Elderly_Housing_List_Visualizations.ipynb**: Analyzes housing list data to gain insights on elderly housing availability and options. 
+
+- **Building_Permits_Cleaning.ipynb**: Structured housing permit data for easier analysis. 
+
+- **Building_Permits_Visualizations.ipynb**: Analyzes housing permit data, including exploratory data analysis. 
